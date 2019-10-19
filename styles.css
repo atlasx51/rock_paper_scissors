@@ -86,7 +86,8 @@ header > h1{
 
 .choice:hover {
     cursor: pointer;
-    background: red;
+    background: blue;
+    transition: all 0.3s ease;
 
 }
 
@@ -101,20 +102,40 @@ header > h1{
 
 
 .green-glow{
-    border: 4px solid #4dcc7d;
+    border: 40px solid #4dcc7d;
     box-shadow: 0 0 10px #31b43a;
+    border-radius: 50%;
+    transition: all 0.3s ease;
   
 
 
 }
 
 .red-glow{
-    border: 4px solid #fc121b;
+    border: 40px solid #fc121b;
     box-shadow: 0 0 10px #d01115;
+    border-radius: 50%;
+    transition: all 0.3s ease;
 }
 
 .gray-glow{
-    border: 4px solid #464647;
+    border: 40px solid #464647;
     box-shadow: 0 0 10px #25292b;
+    border-radius: 50%;
+    transition: all 0.3s ease;
 }
 
+button {
+    width: 75px;
+    height: 75px;
+    color: white;
+    transition: box-shadow 300ms ease-in-out;
+    position: fixed;
+    z-index: 10;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: block;
+    border-radius: 50px;
+    background-color: red;
+    
+}
